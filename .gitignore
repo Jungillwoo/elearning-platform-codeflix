@@ -1,0 +1,16 @@
+# OS별로 생기는 파일
+.DS_Store
+Thumbs.db
+
+# 로그 파일
+*.log
+
+# 환경 변수 파일 (루트에 있는 경우만)
+.env
+
+# 백엔드/프론트 공통 node_modules 방지 (혹시 루트에서 npm 쓸 경우 대비)
+node_modules/
+
+# IDE 설정 파일 (혹시 상위에 생겼을 경우 대비)
+.idea/
+*.iml
