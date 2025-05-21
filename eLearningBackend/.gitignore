@@ -148,3 +148,10 @@ build/
  eLearningBackend/src/main/resources/application-secret.yml
  .github/workflows/deploy.yml
  setup-env.sh
+
+ # 루트 .gitignore 파일에 추가
+ **/application-secret.yml
+ **/application.yml
+ **/deploy.yml
+ **/setup-env.sh
+ **/deploy-ec2.sh
