@@ -140,3 +140,11 @@ build/
 
  # 환경 변수 파일
  .env
+
+ .github
+ src/main/resources/application*.yml
+
+ # 민감정보 무시
+ eLearningBackend/src/main/resources/application-secret.yml
+ .github/workflows/deploy.yml
+ setup-env.sh
