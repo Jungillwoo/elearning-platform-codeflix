@@ -27,3 +27,13 @@ yarn-error.log*
 next-env.d.ts
 
 next.config.mjs
+
+# Next.js 설정 무시
+**/next.config.mjs
+
+# 민감 파일 무시
+**/application*.yml
+**/setup-env.sh
+**/deploy*.sh
+**/next.config.mjs
+*.mjs

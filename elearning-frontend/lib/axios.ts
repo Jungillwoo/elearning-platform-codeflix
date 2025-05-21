@@ -32,7 +32,7 @@
 import axios from 'axios';
 
 const instance = axios.create({
-  baseURL: process.env.NEXT_PUBLIC_API_URL || 'http://3.34.90.186:8080',
+  baseURL: process.env.NEXT_PUBLIC_API_URL || 'http://--:8080',
   withCredentials: true,
   headers: {
     'Content-Type': 'application/json',
