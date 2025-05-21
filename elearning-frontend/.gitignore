@@ -37,3 +37,13 @@ next.config.mjs
 **/deploy*.sh
 **/next.config.mjs
 *.mjs
+
+# OS별로 생기는 파일
+.DS_Store
+Thumbs.db
+
+# 로그 파일
+*.log
+
+# 환경 변수 파일 (루트에 있는 경우만)
+.env
