@@ -155,3 +155,10 @@ build/
  **/deploy.yml
  **/setup-env.sh
  **/deploy-ec2.sh
+
+ # 배포 셸 스크립트 무시
+ ec2-setup.sh
+ ssl-setup.sh
+ test-app.sh
+ setup-env.sh
+ deploy-ec2.sh
